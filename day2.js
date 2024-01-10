@@ -1,21 +1,21 @@
 //LOOP
 //task1
-/*let num=5;
+let num=5;
 let fact=1;
 for(let i= 1; i<=num;i++){
     fact *=i;
 }
-console.log("factorial of number ",num," = ",fact);*/
+console.log("factorial of number ",num," = ",fact);
 
  //task************* 
-/* let numr=123542;
+ let numr=123542;
 let a=0;
 while(numr>=0){
     numr = numr/10;
     a++
-} */
+} 
 /*console.log(a); */
-/* let tree=4
+ let tree=4
 for (let i=1;i<=tree;i++){ 
     
     for(let j =0;j<tree-i;j++){
@@ -31,9 +31,9 @@ for (let i=1;i<=tree;i++){
 
 }
 
-    for(let j =0;j<tree-1;j++){
+ for(let j =0;j<tree-1;j++){
     process.stdout.write(" ");}
-    console.log("|"); */
+    console.log("|"); 
 
 //FUNCTION
 //task1
@@ -90,7 +90,7 @@ function maximum()
 
 
 //task3
-/* function operator(a,b,opr){
+ function operator(a,b,opr){
     switch(opr){
         case '+': return a + b ; break;
         case '-':return a - b ;break;
@@ -100,7 +100,7 @@ function maximum()
 
     }
 }let x=operator(5,4,'+');
-console.log(x) */
+console.log(x) 
     
     
     
