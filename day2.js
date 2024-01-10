@@ -31,7 +31,7 @@ for (let i=1;i<=tree;i++){
 
 }
 
-     for(let j =0;j<tree-1;j++){
+    for(let j =0;j<tree-1;j++){
     process.stdout.write(" ");}
     console.log("|"); */
 
