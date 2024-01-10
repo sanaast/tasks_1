@@ -32,7 +32,7 @@ let c=a;
 a=b;
 b=c;
 console.log("swapping a ="+a+" and b="+b);
-Z
+x
 //********************************************************** */
 
 // Conditional Statements
@@ -80,12 +80,25 @@ let d =-15;
 let e=6;
 let f=2.6;
 
-let max="le maxumum is "+Math.max(d,e,f);
-console.log(max);
+if (d>e && d>f){
+    (" is the maximum number is",d )
+}else if(e > d && e > f){
+    (" is the maximum number is",e )
+}else if (f > d && f > e){
+    (" is the maximum number is",f )
+}
+     
+
+
+
+
+
+//let max="le maxumum is "+Math.max(d,e,f);
+//console.log(max);
 
 //task4
 // THE TEACHER
-let score =83
+/* let score =83
 if (score>85){
     console.log("A");
 }else if (score>70){
@@ -98,7 +111,7 @@ if (score>85){
     console.log("E");
 }else {
     console.log("F");
-}
+} */
 
 
 
